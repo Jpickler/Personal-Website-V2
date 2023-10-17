@@ -1,28 +1,72 @@
-nav{
-  background-color: #222E50;
-  color: #FFFD98;
-}
-a:link{ color: #FFFD98}
-a:visited{color: #FFFD98 }
+/* this section deals with the navigation bar */
+
+  nav{
+    background-color: #222E50;
+    color: #FFFD98;
+  }
+  a:link{ color: #FFFD98}
+  a:visited{color: #FFFD98 }
 
 
-nav * {
-  display: block;
+p{
+    margin: 5px;
+  }
+a{
   margin: 5px;
-
 }
-nav section{
-  text-align: right;
-}
+  nav section{
+    text-align: right;
+  }
 
-nav h1{
-  margin-bottom: -60px;
-  font-size: 50px
-}
+  nav h1{
+    margin-bottom: -60px;
+    font-size: 50px
+  }
 
-body{
-  background-color: #2A4849;
-  color: #9A98B5;
+/* this section deals with the body */  
+  body{
+    background-color: #2A4849;
+    color: #9A98B5;
+
+  }
+  h2{
+    text-align: center;
+  }
+
+/* this section creates containers for the text and images to allow formatting */
+  
+/*
+  .flex-container{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 650px;
+  }
+*/
+
+  .container{
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+    height:620px;
+    position: relative;
+    border: 3px solid white;
+    
+  }
+
+  .vertical-center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY -50%;
+    transform: translateY -50%;
+  }
 
 
-}
+
+
+  img{
+    border: 3px solid white;
+    width: 200px;
+  }
