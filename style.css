@@ -1,0 +1,28 @@
+nav{
+  background-color: #222E50;
+  color: #FFFD98;
+}
+a:link{ color: #FFFD98}
+a:visited{color: #FFFD98 }
+
+
+nav * {
+  display: block;
+  margin: 5px;
+
+}
+nav section{
+  text-align: right;
+}
+
+nav h1{
+  margin-bottom: -60px;
+  font-size: 50px
+}
+
+body{
+  background-color: #2A4849;
+  color: #9A98B5;
+
+
+}
