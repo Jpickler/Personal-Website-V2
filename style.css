@@ -20,41 +20,44 @@ a{
 
   nav h1{
     margin-bottom: -60px;
-    font-size: 50px
+    font-size: 50px;
+    color: #FFFD98
   }
 
 /* this section deals with the body */  
   body{
     background-color: #2A4849;
     color: #9A98B5;
-
+  }
+  h1{
+    color: #5C946E;
   }
   h2{
     text-align: center;
+    width: 700px;
   }
 
 /* this section creates containers for the text and images to allow formatting */
   
-/*
-  .flex-container{
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
-    width: 900px;
-    height: 650px;
-  }
-*/
 
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+  }
   .container{
-    display: inline-block;
     width: 300px;
     margin: 10px;
-    height:620px;
-    position: relative;
+    height:400px;
+    justify-content: start;
+    flex-direction: row;
+  }
+img{
     border: 3px solid white;
-    
+    width: 200px;
   }
 
+  /*
+  this wasn't working... went with flexbox instead
   .vertical-center{
     margin: 0;
     position: absolute;
@@ -62,11 +65,9 @@ a{
     -ms-transform: translateY -50%;
     transform: translateY -50%;
   }
+  */
 
 
 
 
-  img{
-    border: 3px solid white;
-    width: 200px;
-  }
+  
