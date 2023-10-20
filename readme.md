@@ -1,5 +1,5 @@
 --- Readme file for personal website
---- This website is for block 9 with Fullstack Academy and demonstrates use of html and CSS.
+--- This website is for block 12 with Fullstack Academy and demonstrates use of html and CSS.
 
 === files included in this project
     - images folder containing
@@ -15,3 +15,5 @@
     - portfolio.html
     - readme.md
     - style.css
+    -contact.html
+    -form-submitted.html

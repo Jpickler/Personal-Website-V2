@@ -1,29 +1,36 @@
 /* this section deals with the navigation bar */
 
   nav{
+    display: flex;
     background-color: #222E50;
     color: #FFFD98;
+    justify-content:space-between;
+  }
+  a{
+    margin: 5px;
   }
   a:link{ color: #FFFD98}
   a:visited{color: #FFFD98 }
-
-
-p{
-    margin: 5px;
+  a:hover {
+    color: #222E50;
+    background-color: #FFFD98;
+    border: 2px solid #FFFD98 ;
+    border-radius: 15px;
   }
-a{
-  margin: 5px;
-}
+  
+  nav h1{
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 70px;
+    color: #FFFD98
+  }
   nav section{
     text-align: right;
   }
 
-  nav h1{
-    margin-bottom: -80px;
-    margin-left: 10px;
-    font-size: 70px;
-    color: #FFFD98
-  }
+  
 
 /* this section deals with the body */  
   body{
@@ -61,11 +68,12 @@ img{
   }
 
 
-
+/* this section modifies for screen sizes */
 
   @media (max-width: 700px){
     article{
-      background-color: pink;
+      /* placeholder for future modifications */
+      /* background-color: pink; */
     }
     .flex-container{
       flex-direction: column;
@@ -74,9 +82,11 @@ img{
       font-size: xx-large;
     }
   }
+
   @media (max-width: 500px){
     article{
-      background-color: darkcyan;
+      /* placeholder for future modifications */
+      /* background-color: darkcyan; */
     }
     .flex-container{
       flex-direction: column;
@@ -84,7 +94,13 @@ img{
     h1{
       font-size: x-large;
     }
+    nav{
+      flex-direction: column;
+    }
+    nav section{
+      text-align: left;
+    }
   }
-
+ 
 
   

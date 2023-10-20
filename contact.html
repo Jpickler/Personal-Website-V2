@@ -1,13 +1,28 @@
 <html>
+  <head>
+    <title> Personal Website</title>
+    <nav>
+      <h1 > Joel Pickler</h1>
+      <section >
+        <a href="index.html" style="display: block"> Home </a> 
+        <a href="about.html" style="display: block"> About </a> 
+        <a href="portfolio.html" style="display: block"> Portfolio </a>
+        <a href="contact.html" style="display: block"> Contact </a>
+      </section>
+     <link rel="stylesheet" href="style.css"/>
+     </nav>
 
-<head>
-  <title> Personal Website</title>
-  <link rel="stylesheet" href="style.css"/>
-</head>
+     <style>
+      .flex-container {
+        flex-direction: column;
+        align-items: center;
+      }
+     </style>
+  </head>
 <body>
   <h1>Contact Form</h1>
 
-  <form class="flex-container">
+  <form action= "/form-submitted.html" class = "flex-container">
     <label for="fname"> First Name:</label>
     <input id="fname" type="text" name="fname" />
     <br />
