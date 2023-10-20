@@ -39,6 +39,7 @@
   }
   h1{
     color: #5C946E;
+    width: 80%;
   }
   h2{
     text-align: center;
@@ -46,6 +47,7 @@
   }
   article{
     font-size: x-large;
+    color: #d1cefe;
   }
 
 /* this section creates containers for the text and images to allow formatting */
@@ -64,8 +66,29 @@
   }
 img{
     border: 3px solid white;
+    border-radius: 20px;
     width: 90%;
   }
+img:hover{
+      transform: scale(1.2);
+    }
+
+/* this section is for the footer */
+
+footer{
+  display: flex;
+  background-color: #222E50;
+  color: #FFFD98;
+  justify-content:space-between;
+  padding:2%;
+  margin-top: 3%;
+}
+footer p{
+  margin: 5px;
+}
+footer section p{
+  text-align: right;
+}
 
 
 /* this section modifies for screen sizes */
