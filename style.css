@@ -19,8 +19,9 @@ a{
   }
 
   nav h1{
-    margin-bottom: -60px;
-    font-size: 50px;
+    margin-bottom: -80px;
+    margin-left: 10px;
+    font-size: 70px;
     color: #FFFD98
   }
 
@@ -34,7 +35,10 @@ a{
   }
   h2{
     text-align: center;
-    width: 700px;
+    width: 80%;
+  }
+  article{
+    font-size: x-large;
   }
 
 /* this section creates containers for the text and images to allow formatting */
@@ -43,31 +47,44 @@ a{
   .flex-container{
     display: flex;
     flex-direction: row;
+    width: 80%;
   }
   .container{
-    width: 300px;
-    margin: 10px;
-    height:400px;
-    justify-content: start;
+    width: 60%;
+    margin: 2%;
+    justify-content:space-evenly;
     flex-direction: row;
   }
 img{
     border: 3px solid white;
-    width: 200px;
+    width: 90%;
   }
 
-  /*
-  this wasn't working... went with flexbox instead
-  .vertical-center{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY -50%;
-    transform: translateY -50%;
+
+
+
+  @media (max-width: 700px){
+    article{
+      background-color: pink;
+    }
+    .flex-container{
+      flex-direction: column;
+    }
+    h1{
+      font-size: xx-large;
+    }
   }
-  */
-
-
+  @media (max-width: 500px){
+    article{
+      background-color: darkcyan;
+    }
+    .flex-container{
+      flex-direction: column;
+    }
+    h1{
+      font-size: x-large;
+    }
+  }
 
 
   
